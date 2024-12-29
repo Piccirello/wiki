@@ -4,7 +4,8 @@ This WebUI API documentation applies to qBittorrent v5.0+. For other WebUI API v
 
 1. [Changes](#changes)
    1. [API v2.9.3](#api-v293)
-   2. [API v2.11.3](#api-v2113)
+   1. [API v2.11.3](#api-v2113)
+   1. [API v2.11.4](#api-v2114)
 1. [General information](#general-information)
 1. [Authentication](#authentication)
    1. [Login](#login)
@@ -117,6 +118,9 @@ This WebUI API documentation applies to qBittorrent v5.0+. For other WebUI API v
 ## API v2.11.3 ##
 - Add APIs for managing cookies` ([#21340](https://github.com/qbittorrent/qBittorrent/pull/21340))
 - Remove `cookie` field from `/torrents/add` request
+
+## API v2.11.4 ##
+- Added `/torrents/fetchMetadata` and `/torrents/parseMetadata` endpoints for retrieving torrent metadata
 
 # General Information #
 
